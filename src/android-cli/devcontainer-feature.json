@@ -1,6 +1,6 @@
 {
     "name": "Android SDK Platform Tools",
-    "id": "android",
+    "id": "android-cli",
     "version": "0.0.1",
     "description": "Provides Android Tools",
     "privileged": true,
