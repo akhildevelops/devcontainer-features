@@ -1,0 +1,23 @@
+{
+    "name": "Android SDK Platform Tools",
+    "id": "android",
+    "version": "0.0.1",
+    "description": "Provides Android Tools",
+    "privileged": true,
+    "options": {
+        "PACKAGES": {
+            "type": "string",
+            "description": "package-name",
+            "default": "platform-tools,platforms;android-33"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/java",
+        "apt"
+    ],
+    "containerEnv": {
+        "PATH": "/opt/android/platform-tools:/opt/android/cmdline-tools/tools/bin:${PATH}",
+        "ANDROID_HOME": "/opt/android"
+    }
+}

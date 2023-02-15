@@ -1,12 +1,12 @@
 {
-    "color_and_hello": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "android_download": {
+        "image": "ubuntu:focal",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "ghcr.io/devcontainers/features/common-utils": {},
+            "ghcr.io/devcontainers/features/java:1": {},
+            "android-cli": {},
+            "apt": {
+                "packages": "curl,unzip"
             }
         }
     }
