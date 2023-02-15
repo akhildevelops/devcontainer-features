@@ -1,0 +1,10 @@
+{
+    "wget_curl": {
+        "image": "ubuntu:focal",
+        "features": {
+            "apt": {
+                "packages": "wget,curl"
+            }
+        }
+    }
+}

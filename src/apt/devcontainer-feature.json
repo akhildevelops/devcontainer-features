@@ -1,0 +1,17 @@
+{
+    "name": "Apt Download",
+    "id": "apt",
+    "version": "0.0.1",
+    "description": "Installs apt packages",
+    "privileged": true,
+    "options": {
+        "PACKAGES": {
+            "type": "string",
+            "description": "package-name",
+            "default": "wget,curl"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
