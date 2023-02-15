@@ -12,8 +12,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - apt
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -32,8 +31,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - apt
     steps:
       - uses: actions/checkout@v3
 
