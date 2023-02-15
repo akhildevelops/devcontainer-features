@@ -34,7 +34,7 @@ jobs:
           git config --global user.email github-actions@github.com
           git config --global user.name github-actions
           git config pull.rebase false
-          branch=automated-documentation-update-$GITHUB_RUN_ID
+          branch=automated-documentation-update-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT
           git checkout -b $branch
           message='Automated documentation update'
           # Add / update and commit
