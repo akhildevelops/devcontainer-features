@@ -1,13 +1,13 @@
 
-# Apt Download (apt)
+# Pip packages Download (pip)
 
-Installs apt packages
+Installs pip packages
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/akhildevelops/devcontainer-features/apt:0": {}
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {}
 }
 ```
 
