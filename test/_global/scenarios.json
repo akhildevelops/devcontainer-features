@@ -9,5 +9,14 @@
                 "packages": "curl,unzip"
             }
         }
+    },
+    "pip_install_packages": {
+        "image": "python:3-bullseye",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils": {},
+            "pip": {
+                "packages": "jupyter,poetry"
+            }
+        }
     }
 }
