@@ -1,8 +1,8 @@
 {
-    "name": "Apt Download",
-    "id": "apt",
+    "name": "Pip packages Download",
+    "id": "pip",
     "version": "0.0.1",
-    "description": "Installs apt packages",
+    "description": "Installs pip packages",
     "privileged": true,
     "options": {
         "PACKAGES": {
