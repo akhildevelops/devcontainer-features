@@ -1,7 +1,7 @@
 {
     "name": "Pip packages Download",
     "id": "pip",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Installs pip packages",
     "privileged": true,
     "options": {
