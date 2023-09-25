@@ -1,13 +1,13 @@
 
 # Pip packages Download (pip)
 
-Installs pip packages
+Installs pip packages.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {}
+    "ghcr.io/akhildevelops/devcontainer-features/pip:latest": {}
 }
 ```
 
