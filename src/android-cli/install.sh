@@ -35,6 +35,9 @@ cd ${PATH_COMMAND_LINE_TOOLS}
 mv !(tools) tools
 cd ${ANDROID_HOME}
 
+# https://github.com/akhildevelops/devcontainer-features/issues/7
+sudo chown -R vscode:vscode ${ANDROID_HOME}
+
 # Set Path
 export PATH=${PATH_COMMAND_LINE_TOOLS}/tools/bin:$PATH
 
